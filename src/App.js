@@ -8,7 +8,6 @@ const App = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Layout />}>
-          {/* <Route path="/invoices" element={<Invoices />} /> */}
           <Route index element={<Dashboard />} />
           <Route path="products" element={<Products />} />
         </Route>
@@ -20,4 +19,4 @@ const App = () => {
 
 export default App;
 
-// https://github.com/debargus/openshop-analytics-dashboard
+//  https://github.com/debargus/openshop-analytics-dashboard
