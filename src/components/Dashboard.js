@@ -1,10 +1,9 @@
-import { Link } from "react-router-dom";
+import DashboardStatsGrid from "./DashboardStatsGrid";
 
 const Dashboard = () => {
   return (
-    <div>
-      <p>This is a Dashboard!</p>
-      <Link to="products" className="underline">Go to Products!</Link>
+    <div className="flex gap-4">
+      <DashboardStatsGrid />
     </div>
   );
 };
